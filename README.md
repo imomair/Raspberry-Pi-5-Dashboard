@@ -48,6 +48,11 @@ python app.py
 http://<Raspberry_Pi_IP>:5000
 
 ## File Structure
+pi-dashboard/
+├── README.md
+├── app.py
+├── templates/
+│   └── index.html
 app.py — Flask backend server collecting system stats and serving API endpoints
 
 templates/index.html — Frontend dashboard page with dynamic updates and chart
