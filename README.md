@@ -1,4 +1,6 @@
 # Raspberry Pi 5 System Dashboard
+<img width="3588" height="2368" alt="image" src="https://github.com/user-attachments/assets/62d78c15-9be9-4423-908c-fcb55cb47297" />
+
 
 A lightweight, web-based dashboard to monitor CPU usage, RAM usage, disk usage, temperature, uptime, power consumption, and top CPU-consuming processes on a Raspberry Pi 5.  
 Built with Python Flask backend and a responsive frontend using Chart.js for visualization.
