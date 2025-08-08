@@ -36,10 +36,11 @@ Built with Python Flask backend and a responsive frontend using Chart.js for vis
 Install required Python packages:
 
 pip install Flask psutil
-Run the Flask app:
+
+## Run the Flask app:
 
 python app.py
 
-Open a browser on any device on the same LAN and navigate to:
+## Open a browser on any device on the same LAN and navigate to:
 
 http://<Raspberry_Pi_IP>:5000
