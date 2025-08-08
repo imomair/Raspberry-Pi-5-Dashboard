@@ -33,8 +33,13 @@ Built with Python Flask backend and a responsive frontend using Chart.js for vis
 
 ## Installation & Setup
 
-1. Clone or download this repository to your Raspberry Pi:
+Install required Python packages:
 
-   ```bash
-   git clone https://your-repo-url.git
-   cd pi-dashboard
+pip install Flask psutil
+Run the Flask app:
+
+python app.py
+
+Open a browser on any device on the same LAN and navigate to:
+
+http://<Raspberry_Pi_IP>:5000
