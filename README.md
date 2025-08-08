@@ -44,3 +44,29 @@ python app.py
 ## Open a browser on any device on the same LAN and navigate to:
 
 http://<Raspberry_Pi_IP>:5000
+
+## File Structure
+app.py — Flask backend server collecting system stats and serving API endpoints
+
+templates/index.html — Frontend dashboard page with dynamic updates and chart
+
+static/ — (optional) for CSS, JS assets if you choose to separate
+
+## License Information
+Flask — BSD-3-Clause License
+
+psutil — BSD License
+
+Chart.js — MIT License
+
+This project code — [Your choice; e.g., MIT License]
+
+## Notes
+The power consumption estimation assumes a Raspberry Pi 5 with a 5V 5A power supply (27W max). Real usage may vary.
+
+For production use, consider running Flask behind a WSGI server like Gunicorn and optionally enable HTTPS for security.
+
+Make sure to open port 5000 on your Raspberry Pi firewall if accessing from other devices.
+
+## Contact
+For questions or contributions, please open an issue or submit a pull request.
